@@ -1,9 +1,9 @@
 <?php
 namespace seniorprog\amazon_ad_api;
 
-require_once "Versions.php";
-require_once "Regions.php";
-require_once "CurlRequest.php";
+use seniorprog\amazon_ad_api\Versions;
+use seniorprog\amazon_ad_api\Regions;
+use seniorprog\amazon_ad_api\CurlRequest;
 
 class Client
 {
