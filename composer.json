@@ -1,0 +1,21 @@
+{
+    "name": "seniorprog/amazon-ad-api",
+    "description": "Amazon ad api",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","seniorprog","amazon-ad-api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "seniorprog",
+            "email": "seniorprog24@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "seniorprog\\amazon_ad_api\\": "src"
+        }
+    }
+}
